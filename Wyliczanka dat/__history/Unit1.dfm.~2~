@@ -1,0 +1,201 @@
+﻿object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Wyliczanka'
+  ClientHeight = 719
+  ClientWidth = 643
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 216
+    Top = 176
+    Width = 193
+    Height = 24
+    Caption = 'Wpisz dat'#281' urodzenia:'
+    Font.Charset = EASTEUROPE_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 24
+    Top = 336
+    Width = 127
+    Height = 23
+    Caption = 'Prze'#380'y'#322'e'#347' lat:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 24
+    Top = 384
+    Width = 185
+    Height = 23
+    Caption = 'Prze'#380'y'#322'e'#347' miesi'#281'cy:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 24
+    Top = 492
+    Width = 132
+    Height = 23
+    Caption = 'Prze'#380'y'#322'e'#347' dni:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 24
+    Top = 544
+    Width = 158
+    Height = 23
+    Caption = 'Prze'#380'y'#322'e'#347' minut:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 24
+    Top = 600
+    Width = 170
+    Height = 23
+    Caption = 'Prze'#380'y'#322'e'#347' sekund:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 24
+    Top = 438
+    Width = 216
+    Height = 23
+    Caption = 'Prze'#380'y'#322'e'#347' weekend'#243'w:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object LabelIleLat: TLabel
+    Left = 200
+    Top = 344
+    Width = 52
+    Height = 13
+    Caption = 'LabelIleLat'
+  end
+  object LabelIleMiesiecy: TLabel
+    Left = 232
+    Top = 392
+    Width = 77
+    Height = 13
+    Caption = 'LabelIleMiesiecy'
+  end
+  object LabelIleWeekendów: TLabel
+    Left = 264
+    Top = 446
+    Width = 96
+    Height = 13
+    Caption = 'LabelIleWeekend'#243'w'
+  end
+  object LabelIleDni: TLabel
+    Left = 172
+    Top = 500
+    Width = 52
+    Height = 13
+    Caption = 'LabelIleDni'
+  end
+  object LabelIleMinut: TLabel
+    Left = 200
+    Top = 552
+    Width = 63
+    Height = 13
+    Caption = 'LabelIleMinut'
+  end
+  object LabelIleSekund: TLabel
+    Left = 216
+    Top = 608
+    Width = 72
+    Height = 13
+    Caption = 'LabelIleSekund'
+  end
+  object Memo1: TMemo
+    Left = 64
+    Top = 8
+    Width = 505
+    Height = 153
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Whimsy TT'
+    Font.Style = [fsBold]
+    Lines.Strings = (
+      'Program zwraca po wpisaniu daty '
+      'urodzenia, odj'#281't'#261' od aktualnej daty, '
+      'liczb'#281' lat, miesi'#281'cy, '
+      'weekend'#243'w, dni, godzin, minut, sekund.'
+      'Dobrej zabawy ! ')
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 88
+    Top = 240
+    Width = 121
+    Height = 21
+    TabOrder = 1
+    Text = 'Rok'
+  end
+  object Edit2: TEdit
+    Left = 248
+    Top = 240
+    Width = 121
+    Height = 21
+    TabOrder = 2
+    Text = 'Miesi'#261'c'
+  end
+  object Edit3: TEdit
+    Left = 408
+    Top = 240
+    Width = 121
+    Height = 21
+    TabOrder = 3
+    Text = 'Dzie'#324
+  end
+  object Button1: TButton
+    Left = 272
+    Top = 280
+    Width = 75
+    Height = 25
+    Caption = 'Wylicz'
+    TabOrder = 4
+    OnClick = Button1Click
+  end
+end
