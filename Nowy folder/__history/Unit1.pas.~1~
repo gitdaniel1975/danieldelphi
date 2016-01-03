@@ -54,8 +54,6 @@ datasys:Tdatetime;
 
 bar: Currency;
 //Value : Currency;
-
-// zapis na potrzeby git
 begin
 datasys:= DateTimePicker1.Date;
 bar:= YearsBetween(Now,datasys);
