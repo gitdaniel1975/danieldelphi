@@ -1,0 +1,258 @@
+object Froma1: TFroma1
+  Left = 0
+  Top = 0
+  Caption = 'Forma1'
+  ClientHeight = 698
+  ClientWidth = 745
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 608
+    Top = 433
+    Width = 106
+    Height = 25
+    Caption = 'Label1'
+  end
+  object Button1: TButton
+    Left = 32
+    Top = 8
+    Width = 75
+    Height = 25
+    Caption = 'Copy'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 32
+    Top = 39
+    Width = 75
+    Height = 25
+    Caption = 'Lenght'
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 32
+    Top = 68
+    Width = 75
+    Height = 25
+    Caption = 'PosEx'
+    TabOrder = 2
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 32
+    Top = 130
+    Width = 75
+    Height = 25
+    Caption = 'Insert'
+    TabOrder = 3
+    OnClick = Button4Click
+  end
+  object Edit1: TEdit
+    Left = 113
+    Top = 41
+    Width = 121
+    Height = 21
+    TabOrder = 4
+    Text = 'Edit1'
+  end
+  object Edit2: TEdit
+    Left = 113
+    Top = 70
+    Width = 121
+    Height = 21
+    TabOrder = 5
+    Text = 'Edit2'
+  end
+  object Button5: TButton
+    Left = 32
+    Top = 161
+    Width = 75
+    Height = 25
+    Caption = 'Format'
+    TabOrder = 6
+    OnClick = Button5Click
+  end
+  object Button6: TButton
+    Left = 32
+    Top = 99
+    Width = 75
+    Height = 25
+    Caption = 'Pos'
+    TabOrder = 7
+    OnClick = Button6Click
+  end
+  object Edit3: TEdit
+    Left = 113
+    Top = 101
+    Width = 121
+    Height = 21
+    TabOrder = 8
+    Text = 'Edit3'
+  end
+  object Button7: TButton
+    Left = 32
+    Top = 192
+    Width = 75
+    Height = 25
+    Caption = 'Leftstr'
+    TabOrder = 9
+    OnClick = Button7Click
+  end
+  object Button8: TButton
+    Left = 32
+    Top = 223
+    Width = 75
+    Height = 25
+    Caption = 'Rightstr'
+    TabOrder = 10
+    OnClick = Button8Click
+  end
+  object Memo1: TMemo
+    Left = 349
+    Top = 39
+    Width = 185
+    Height = 89
+    Lines.Strings = (
+      'Memo1')
+    TabOrder = 11
+  end
+  object Button9: TButton
+    Left = 409
+    Top = 8
+    Width = 75
+    Height = 25
+    Caption = 'ExtractStrings'
+    TabOrder = 12
+    OnClick = Button9Click
+  end
+  object Button10: TButton
+    Left = 32
+    Top = 254
+    Width = 75
+    Height = 25
+    Caption = 'Concat'
+    TabOrder = 13
+    OnClick = Button10Click
+  end
+  object Button11: TButton
+    Left = 32
+    Top = 285
+    Width = 75
+    Height = 25
+    Caption = 'StringOfChar'
+    TabOrder = 14
+    OnClick = Button11Click
+  end
+  object button12: TButton
+    Left = 32
+    Top = 316
+    Width = 75
+    Height = 25
+    Caption = 'Trim'
+    TabOrder = 15
+  end
+  object Edit4: TEdit
+    Left = 128
+    Top = 318
+    Width = 121
+    Height = 21
+    TabOrder = 16
+    Text = 'nie dzia'#322'a'
+  end
+  object Button13: TButton
+    Left = 32
+    Top = 347
+    Width = 75
+    Height = 25
+    Caption = 'StrToInt'
+    TabOrder = 17
+    OnClick = Button13Click
+  end
+  object Button14: TButton
+    Left = 32
+    Top = 378
+    Width = 75
+    Height = 25
+    Caption = 'StrToFloat'
+    TabOrder = 18
+    OnClick = Button14Click
+  end
+  object Button15: TButton
+    Left = 32
+    Top = 409
+    Width = 75
+    Height = 25
+    Caption = ' ORD +2'
+    TabOrder = 19
+    OnClick = Button15Click
+  end
+  object Edit5: TEdit
+    Left = 576
+    Top = 380
+    Width = 121
+    Height = 25
+    TabOrder = 20
+  end
+  object Button16: TButton
+    Left = 32
+    Top = 440
+    Width = 75
+    Height = 25
+    Caption = 'ORD'
+    TabOrder = 21
+    OnClick = Button16Click
+  end
+  object Button17: TButton
+    Left = 32
+    Top = 471
+    Width = 75
+    Height = 25
+    Caption = 'BooltostrFalse'
+    TabOrder = 22
+    OnClick = Button17Click
+  end
+  object Button18: TButton
+    Left = 32
+    Top = 502
+    Width = 75
+    Height = 25
+    Caption = 'Booltostrtrue'
+    TabOrder = 23
+    OnClick = Button18Click
+  end
+  object Button19: TButton
+    Left = 32
+    Top = 533
+    Width = 75
+    Height = 25
+    Caption = 'Data'
+    TabOrder = 24
+    OnClick = Button19Click
+  end
+  object Button20: TButton
+    Left = 344
+    Top = 360
+    Width = 75
+    Height = 25
+    Caption = 'Button20'
+    TabOrder = 25
+  end
+  object Button21: TButton
+    Left = 32
+    Top = 564
+    Width = 75
+    Height = 25
+    Caption = 'Czas'
+    TabOrder = 26
+    OnClick = Button21Click
+  end
+end

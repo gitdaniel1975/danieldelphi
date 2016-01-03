@@ -1,0 +1,289 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls,System.StrUtils;
+
+type
+  TFroma1 = class(TForm)
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    Button4: TButton;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Button5: TButton;
+    Button6: TButton;
+    Edit3: TEdit;
+    Button7: TButton;
+    Button8: TButton;
+    Memo1: TMemo;
+    Button9: TButton;
+    Button10: TButton;
+    Button11: TButton;
+    button12: TButton;
+    Edit4: TEdit;
+    Button13: TButton;
+    Button14: TButton;
+    Button15: TButton;
+    Edit5: TEdit;
+    Label1: TLabel;
+    Button16: TButton;
+    Button17: TButton;
+    Button18: TButton;
+    Button19: TButton;
+    Button20: TButton;
+    Button21: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
+    procedure Button5Click(Sender: TObject);
+    procedure Button6Click(Sender: TObject);
+    procedure Button7Click(Sender: TObject);
+    procedure Button8Click(Sender: TObject);
+    procedure Button9Click(Sender: TObject);
+    procedure Button10Click(Sender: TObject);
+    procedure Button11Click(Sender: TObject);
+    procedure Button12Click(Sender: TObject);
+    procedure Button13Click(Sender: TObject);
+    procedure Button14Click(Sender: TObject);
+    procedure Button15Click(Sender: TObject);
+    procedure Button16Click(Sender: TObject);
+    procedure Button17Click(Sender: TObject);
+    procedure Button18Click(Sender: TObject);
+    procedure Button19Click(Sender: TObject);
+    procedure Button21Click(Sender: TObject);
+    procedure FormActivate(Sender: TObject);
+    procedure FormDeactivate(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure button12MouseActivate(Sender: TObject; Button: TMouseButton;
+      Shift: TShiftState; X, Y, HitTest: Integer;
+      var MouseActivate: TMouseActivate);
+    procedure button12MouseLeave(Sender: TObject);
+    procedure FormMouseMove(Sender: TObject; Shift: TShiftState; X, Y: Integer);
+
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Froma1: TFroma1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFroma1.Button10Click(Sender: TObject);
+var
+  S: String;
+begin
+  S := '15 czerwca';
+  ShowMessage(Concat('Dzisiaj jest ', S, ' roku 2012'));
+end;
+
+procedure TFroma1.Button11Click(Sender: TObject);
+begin
+  ShowMessage(StringOfChar('A', 5));
+end;
+
+procedure TFroma1.Button1Click(Sender: TObject);
+  var
+  S, Finall : String;
+begin
+  S := 'Adres strony: http://4programmers.net';
+
+  Finall := Copy(S, 1, 6) + 'e-mail: boduch@poland.com';
+
+  ShowMessage(Finall);
+end;
+procedure TFroma1.Button21Click(Sender: TObject);
+
+  begin
+  ShowMessage(TimeToStr(Time));
+end;
+
+
+procedure TFroma1.Button2Click(Sender: TObject);
+var
+  S : String;
+  i : integer ;
+begin
+  S := 'Delphi';
+ i:= Length (S);  //Zwróci 6
+ Edit1.Text:=IntToStr(i);
+end;
+procedure TFroma1.Button3Click(Sender: TObject);
+var
+  S : String;
+  q : integer;
+begin
+  S := 'Tekst zawieraj¹cy spacje';
+  q:=  Posex( 'y', S,7);
+  Edit2.Text:=IntToStr(q);
+end;
+procedure TFroma1.Button4Click(Sender: TObject);
+var
+  S : String;
+begin
+  S := 'Adres strony: 4programmers.net';
+  Insert('http://', S, 15);
+
+  ShowMessage(s);
+end;
+procedure TFroma1.Button5Click(Sender: TObject);
+var
+  ImieKolegi, MojeImie: String;
+  Wiek: Integer;
+begin
+  ImieKolegi := 'Bo¿ydar';
+  MojeImie := 'Gerwazy';
+  Wiek := 17;
+  ShowMessage(Format('Witaj %s, nazywam siê %s i mam %d lat', [ImieKolegi, MojeImie, Wiek]));
+end;
+procedure TFroma1.Button6Click(Sender: TObject);
+var
+  S : String;
+  q : integer;
+begin
+  S := 'Tekst zawieraj¹cy spacje';
+  q:=  Pos( 'y', S);
+  Edit3.Text:=IntToStr(q);
+end;
+
+
+procedure TFroma1.Button7Click(Sender: TObject);
+var
+  S : String;
+begin
+  S := ' Jeden Dwa Trzy Cztery Piêæ';
+  ShowMessage(LeftStr(S, 6));    //Zobaczymy "Jeden"
+
+end;
+procedure TFroma1.Button8Click(Sender: TObject);
+var
+  S : String;
+begin
+  S := ' Jeden Dwa Trzy Cztery Piêæ';
+
+  ShowMessage(RightStr(S, 11));  //Zobaczymy "Cztery Piêæ"
+end;
+procedure TFroma1.Button9Click(Sender: TObject);
+
+
+begin
+   Memo1.Text := ('');
+  ExtractStrings([' '], [], 'jacek wacek placek lol', Memo1.Lines);
+end;
+  procedure TFroma1.FormActivate(Sender: TObject);
+begin
+ShowMessage('witaj przyjacielu');
+end;
+
+procedure TFroma1.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+ShowMessage('¿egnaj przyjacielu');
+
+end;
+
+procedure TFroma1.FormDeactivate(Sender: TObject);
+begin
+ShowMessage('¿egnaj przyjacielu');
+end;
+
+procedure TFroma1.FormMouseMove(Sender: TObject; Shift: TShiftState; X,
+  Y: Integer);
+begin
+ShowMessage('Masz wirusa hehehehe');
+end;
+
+procedure TFroma1.button12Click(Sender: TObject);
+
+var
+  S : String;
+begin
+  S := ' Adam Boduch ';
+  //ShowMessage(Trim(S));//Zobaczymy samo "Adam Boduch"
+end;
+
+
+procedure TFroma1.button12MouseActivate(Sender: TObject; Button: TMouseButton;
+  Shift: TShiftState; X, Y, HitTest: Integer;
+  var MouseActivate: TMouseActivate);
+begin
+ShowMessage('Trim niestety nie dzia³a');
+end;
+
+procedure TFroma1.button12MouseLeave(Sender: TObject);
+begin
+ShowMessage('spytam sie o co chodzi');
+end;
+
+procedure TFroma1.Button13Click(Sender: TObject);
+var
+  S: String;
+  I: Integer;
+begin
+  S := '25';
+  I := StrToInt(S);  //Teraz w I jest liczba 25
+  ShowMessage(IntToStr(I));
+end;
+procedure TFroma1.Button14Click(Sender: TObject);
+var
+  S: String;
+  D: Double;
+begin
+  S := '25,5';
+  D := StrToFloat(S);  //Teraz w D jest liczba 25.5
+  ShowMessage(FloatToStr(D));
+end;
+procedure TFroma1.Button15Click(Sender: TObject);
+var
+c : char;
+
+begin
+  C := 'A';
+  C := Chr( Ord(C)  +  2);
+
+  ShowMessage (c);       //Pokaze C
+end;
+
+procedure TFroma1.Button16Click(Sender: TObject);
+var
+  C: Char;
+
+begin
+  C := 'A';
+  ShowMessage(IntToStr(Ord(C)));
+  end;
+procedure TFroma1.Button17Click(Sender: TObject);
+var
+d: string;
+
+begin
+  d:= booltostr (false);
+   ShowMessage(d);
+end;
+
+procedure TFroma1.Button18Click(Sender: TObject);
+var
+K: string;
+begin
+  K:= booltostr (false);
+   ShowMessage(K);
+end;
+
+procedure TFroma1.Button19Click(Sender: TObject);
+
+  begin
+  ShowMessage(DateToStr(Date));
+end;
+
+
+// patrz: http://4programmers.net/Delphi/Artyku%C5%82y/%C5%81a%C5%84cuchy#id-LeftStr-RightStr
+end.
