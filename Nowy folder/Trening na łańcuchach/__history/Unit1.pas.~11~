@@ -151,7 +151,6 @@ begin
   ImieKolegi := 'Bo¿ydar';
   MojeImie := 'Gerwazy';
   Wiek := 17;
-  //poprawka na potrzeby git
   ShowMessage(Format('Witaj %s, nazywam siê %s i mam %d lat', [ImieKolegi, MojeImie, Wiek]));
 end;
 procedure TFroma1.Button6Click(Sender: TObject);
