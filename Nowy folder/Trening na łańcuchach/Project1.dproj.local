@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899-12-30 00#00#00.000.001,C:\Users\Lenovo\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Lenovo\Desktop\Projekty delphi\Trening na łańcuchach\Project1.dproj</Transaction>
-    <Transaction>1899-12-30 00#00#00.000.976,=C:\Users\Lenovo\Desktop\Projekty delphi\Trening na łańcuchach\Unit2.pas</Transaction>
-    <Transaction>1899-12-30 00#00#00.000.569,=C:\Users\Lenovo\Desktop\Projekty delphi\Trening na łańcuchach\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00#00#00.000.254,=C:\Users\Lenovo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00#00#00.000.206,=C:\Users\Lenovo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00#00#00.000.650,=C:\Users\Lenovo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.650,=C:\Users\Lenovo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.976,=C:\Users\Lenovo\Desktop\Projekty delphi\Trening na łańcuchach\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.569,=C:\Users\Lenovo\Desktop\Projekty delphi\Trening na łańcuchach\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.001,C:\Users\Lenovo\Desktop\Projekty delphi\Trening na łańcuchach\Project1.dproj=C:\Users\Lenovo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.254,=C:\Users\Lenovo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.206,=C:\Users\Lenovo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>
