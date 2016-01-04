@@ -80,3 +80,4 @@ end;
 
   // druga poprawka kodu na potrzeby git
   //trzecia poprawka
+  // czwarta poprawka
