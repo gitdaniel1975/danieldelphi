@@ -5,7 +5,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls,System.StrUtils;
-   // zmieniono na potrzeby git
+   // zmieniono na potrzeby git 2
 type
 ELowError = class(Exception);
   EMediumError = class(Exception);
